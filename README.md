@@ -1,0 +1,5 @@
+# Example
+
+Dieses Program stellt eine Simulation eines Spiels dar. Bei diesem Spiel geht es um das Einsammeln von Äpfeln auf einem Spielfeld. Bei Ausführen der Main.java wird ein Spielfeld generiert auf dem zufällig Bäume platziert werden (dargestellt mit ♣). Um diese Bäume herum liegen zufällig viele Äpfel (dargestellt mit ৹). Der Spieler wird ebenfalls zufällig plaziert und mit ↑,↓,← oder → dargestellt, je nachdem in welche Richtung er guckt. Anschließend werden eine Reihe zufälliger Aktionen ausgeführt (Vorwärts, Links drehen, Rechts drehen). Der Spieler kann nicht aus dem Feld laufen und nicht auf ein Feld auf dem ein Baum steht. Läuft er auf einen Apfel sammelt er diesen automatisch ein. Die gesammelten Äpfel werden auf einem Punktestand vermerkt. Nach jeder ausgeführten Aktion wird das Spielfeld ausgegeben und die ausgeführte Aktion wird angegeben, so kann das Verhalten des Spielers nachverfolgt werden.
+
+Man könnte nun eine entsprechende KI mit beliebig vielen Simulationen antrainieren. So könnte man einen möglichst intelligenten Spieler erhalten, welcher einen effizienten Weg findet möglichst alle Äpfel einzusammeln ohne gegen Bäume zu laufen.
